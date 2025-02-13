@@ -4,7 +4,7 @@
   "description": "A demo repository with Examples, for troubleshooting problems and for feature requests.",
   "main": "index.js",
   "scripts": {
-    "test": "QASE_MODE=testops npx testcafe safari -r spec,qase"
+    "test": "QASE_MODE=testops npx testcafe ./tests/examples -r spec,qase"
   },
   "repository": {
     "type": "git",
