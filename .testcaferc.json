@@ -1,0 +1,12 @@
+{
+    browsers: ["chrome:headless"],
+    baseUrl: "https://my-website.com",
+    skipJsErrors: true,
+    hostname: "localhost",
+    "screenshots": {
+        "path": "screenshots",
+        "takeOnFails": true,
+        "fullPage": true
+    },
+    "videoPath": "videos"
+}

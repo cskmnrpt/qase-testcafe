@@ -1,0 +1,31 @@
+{
+  "name": "qase-testcafe",
+  "version": "2",
+  "description": "A demo repository with Examples, for troubleshooting problems and for feature requests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "QASE_MODE=testops npx testcafe safari -r spec,qase"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cskmnrpt/qase-testcafe.git"
+  },
+  "keywords": [
+    "qase-testcafe",
+    "qaseio",
+    "qase-tms",
+    "qase-javascript"
+  ],
+  "author": "Qase Support",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/cskmnrpt/qase-testcafe/issues"
+  },
+  "homepage": "https://github.com/cskmnrpt/qase-testcafe#readme",
+  "devDependencies": {
+    "dotenv": "^16.4.7",
+    "prettier": "^3.4.2",
+    "testcafe": "^3.7.1",
+    "testcafe-reporter-qase": "^2.0.4"
+  }
+}
