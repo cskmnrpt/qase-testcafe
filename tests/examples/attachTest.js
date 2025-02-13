@@ -7,9 +7,7 @@ fixture`Example: attachTest.js`
 test("Test result with attachment", async (t) => {
   // To attach a single file
   qase.attach({
-    paths: [
-      "/Users/manju/qase-tms/examples/qase-testcafe/tests/examples/attachments/test-file.txt",
-    ],
+    paths: ["tests/examples/attachments/test-file.txt"],
   });
 
   /* 
